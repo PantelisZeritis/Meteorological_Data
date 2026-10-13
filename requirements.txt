@@ -1,0 +1,7 @@
+scrapy
+requests
+psycopg2-binary
+python-dotenv
+PyYAML
+matplotlib
+pandas

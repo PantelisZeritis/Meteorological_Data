@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/Σχοινοπλοκάκης.aux": true,
+        "**/Σχοινοπλοκάκης.log": true,
+        "**/Σχοινοπλοκάκης.gz": true,
+        "**/Σχοινοπλοκάκης.out": true
+    }
+}
