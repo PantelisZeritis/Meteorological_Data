@@ -16,7 +16,7 @@ class OWMForecastSpider(scrapy.Spider):
     logs = Logger("openweathermap.org", "logger/owm_forecast.log")
     db_connection = DBConnection()
 
-    API_KEY = "b50389a66cdbbb372213193fbb1fa45c"
+    API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"  # Replace with your actual OpenWeatherMap API key
 
     def start_requests(self):
         self.logs.info(f"------------------------------------------ Starting OWM API scraping... ------------------------------------------")
