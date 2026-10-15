@@ -497,3 +497,16 @@ logger/
 
 # Αγνοούμε τα μεταδεδομένα του WSL (που είχαμε δει πριν)
 *:Zone.Identifier
+
+# Αγνοούμε τα ευαίσθητα δεδομένα (API keys)
+.env
+*.key
+
+# Αγνοούμε όλα τα PDF και LaTeX αρχεία/φακέλους
+Latex/
+Latexchanged/
+*.tex
+*.pdf
+*.aux
+*.log
+*.out
